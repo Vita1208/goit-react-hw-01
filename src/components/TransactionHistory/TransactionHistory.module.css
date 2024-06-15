@@ -1,0 +1,34 @@
+.table{
+    border: 1px solid black;
+    margin-top: 20px;
+    border-collapse: separate;
+    empty-cells: hide;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.thead{
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+}
+.tableTitle{
+    padding: 6px 3px;
+    border: 1px solid black;
+    text-transform: capitalize;
+}
+.tableCel{
+    padding: 6px 3px;
+    text-align: center;
+    justify-content: center;
+}
+td{  
+    text-transform: capitalize;
+    border: 1px solid black;
+}
+.body>tr:nth-child(even) {
+    background-color: #d3d3d3;
+}

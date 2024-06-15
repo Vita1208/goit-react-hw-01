@@ -1,0 +1,17 @@
+.friends{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.FriendList{
+    overflow: hidden;
+    width: 150px;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
